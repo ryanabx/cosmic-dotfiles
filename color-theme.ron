@@ -224,12 +224,20 @@
     primary_container_bg: None,
     secondary_container_bg: None,
     text_tint: None,
-    accent: None,
+    accent: Some((
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+    )),
     success: None,
     warning: None,
     destructive: None,
     is_frosted: false,
     gaps: (0, 8),
-    active_hint: 3,
-    window_hint: None,
+    active_hint: 1,
+    window_hint: Some((
+        red: 0.3254549,
+        green: 0.3254549,
+        blue: 0.3254549,
+    )),
 )
